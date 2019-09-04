@@ -1,11 +1,16 @@
-
 <!--NavBar-->
- <app-nav></app-nav>
+<app-nav></app-nav>
 
- <!--Category-->
- <app-category></app-category>
-
-<!--Products-->
-<app-product></app-product>
+<div class = "row">
+    <div class = "col-md-2">
+        <!--Category-->
+        <app-category></app-category>
+      </div>
+      
+      <div class = "col-md-10">
+        <!--Products-->
+        <app-product></app-product>
+      </div>
+</div>
 
 <router-outlet></router-outlet>
